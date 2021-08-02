@@ -1,6 +1,9 @@
 # minimal-landing
 A custom landing page by Prateek Kesavarapu
 
+Inspiration and a lot of code from:
+[lr-tech](https://github.com/lr-tech/mintab)
+
 ### Features
   * Minimalistic looks
   * Has google search box
