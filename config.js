@@ -18,7 +18,7 @@ const ICONS = [
   },
   {
     icon: "ri-book-fill",
-    link: "Link Here"
+    link: "https://students.allendigital.in/"
   },
   {
     icon: "ri-keyboard-box-fill",

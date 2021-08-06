@@ -6,7 +6,11 @@
     <title>New Tab</title>
     <link rel="icon" href="favicon.ico" class="fa">
     <link rel="preload" href="assets/css/styles.css" as="style">
+    <link rel="preload" href="assets/css/settings.css" as="style">
+    <link rel="preload" href="assets/css/toggle.css" as="style">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/settings.css">
+    <link rel="stylesheet" href="assets/css/toggle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -34,8 +38,39 @@
     </div>
     <div id="bottomContainer" class="container bigContainer">
       <div id="listContainer" class="container"></div>
+    <div class="wrap">
+      <button class="button" id = "btn" onclick="openNav()"><img src="settings.png"/></button>
+    </div>
+    </div>
+    <div id = "sideBar" class="sidebar">
+      <a href = "javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">
+        <input id = "image-file" type ="file" accept="image/*">
+      </a>
+      <a href="#">Edit Link icons</a>
+      <a href="#">Edit Link text</a>
+      <a><div class="toggleWrapper">
+  <input type="checkbox" class="dn" id="dn" onclick="darkLightMode()"/>
+  <label for="dn" class="toggle">
+    <span class="toggle__handler">
+      <span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+    <span class="star star--1"></span>
+    <span class="star star--2"></span>
+    <span class="star star--3"></span>
+    <span class="star star--4"></span>
+    <span class="star star--5"></span>
+    <span class="star star--6"></span>
+  </label>
+</div></a>
     </div>
     <script src="config.js"></script>
+    <script src="assets/js/onLoad.js"></script>
+    <script src="assets/js/toggle.js"></script>
+    <script src="assets/js/fileUpload.js"></script>
+    <script src="assets/js/settingsBar.js"></script>
     <script src="assets/js/search.js"></script>
     <script src="assets/js/setDate.js"></script>
     <script src="assets/js/setLinks.js"></script>

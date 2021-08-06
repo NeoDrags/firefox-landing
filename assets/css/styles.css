@@ -24,7 +24,7 @@ a {
 
 body {
   color           : var(--fgColor);
-  background      : var(--bgColor) url("../../bg.jpg");
+  background      : var(--bgColor);
   background-size : cover;
   font-size       : 16px;
 
