@@ -13,7 +13,11 @@ Inspiration and a lot of code from:
   * Create a browser integration
 
 ### Images   
-#### Search Collapsed   
+#### Page when first loaded   
 ![Search Collapsed](/images/Scrot1.png "Search Collapsed")
-#### Search Expanded with type   
+#### Page after putting background image
 ![Search Expanded](/images/Scrot2.png "Search Expanded")
+#### Settings menu
+![Settings](/images/scrot3.png "Settings")
+#### Dark mode
+![Dark mode](/images/scrot4.png "Dark mode")
