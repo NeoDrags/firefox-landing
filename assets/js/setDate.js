@@ -30,6 +30,7 @@ const updateDate = () => {
   // Time Variables
   let currentHour = formatDigit(completeDate.getHours());
   let currentMinute = formatDigit(completeDate.getMinutes());
+  let currentSeconds = formatDigit(completeDate.getSeconds());
 
   // Date Variables
   let currentDay = completeDate.getDay();
@@ -42,7 +43,7 @@ const updateDate = () => {
     currentHour % 12 == 0 ? "12" : currentHour % 12
   }:${currentMinute} ${currentHour > 11 ? "PM" : "AM"}`;
   */
-  currentTime.innerHTML = `${currentHour}:${currentMinute}`;
+  currentTime.innerHTML = `${currentHour}:${currentMinute}:${currentSeconds}`;
 
   // Update the Date
   currentDate.innerHTML = `${DAYS[currentDay]},
