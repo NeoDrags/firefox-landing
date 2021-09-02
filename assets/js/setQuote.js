@@ -6577,7 +6577,7 @@ const printQuote = () => {
   var currentQuote = Math.floor(Math.random() * QUOTES.length);
 
   quote.innerHTML = `"${QUOTES[currentQuote].text}"`;
-  quoteAuthor.innerHTML = `- ${QUOTES[currentQuote].author}`;
+  quoteAuthor.innerHTML = `- ${QUOTES[currentQuote].author || "Anonymous"}`;
 };
 
 printQuote();
